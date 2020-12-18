@@ -25,13 +25,13 @@ public class OnlineDemo {
         AcquireOnlineDTO acquireOnlineDTO = new AcquireOnlineDTO();
         //Merchant ID
         acquireOnlineDTO.setMerchantId("M202006043328");
-        //Merchant order number
+        //Merchant order number 商户订单号
         acquireOnlineDTO.setOrderNo("1000020201211155530384067");
         //Order currency
         acquireOnlineDTO.setOrderCurrency("HKD");
         //Order amount
         acquireOnlineDTO.setOrderAmount(new BigDecimal("0.1"));
-        //Order time, format is yyyy-MM-dd HH: mm: ss
+        //Order time, format is yyyy-MM-dd HH: mm: ss 商户订单时间
         acquireOnlineDTO.setOrderTime(sdf.format(new Date()));
         //Server callback address
         acquireOnlineDTO.setServerUrl("https://www.baidu.com/");

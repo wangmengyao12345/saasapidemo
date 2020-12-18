@@ -41,13 +41,13 @@ public class OfflineDemo {
         OfflineCSBCodeDTO offlineCSBCodeDTO = new OfflineCSBCodeDTO();
         //Merchant ID
         offlineCSBCodeDTO.setMerchantId("M202006043328");
-        //Merchant Order Number
+        //Merchant Order Number 商户订单号
         offlineCSBCodeDTO.setOrderNo("1000020201211155538384863");
         //Order Currency
         offlineCSBCodeDTO.setOrderCurrency("HKD");
         //Order Amount
         offlineCSBCodeDTO.setOrderAmount(new BigDecimal("0.1"));
-        //Merchant Order Time ,format is yyyy-MM-dd HH:mm:ss
+        //Merchant Order Time ,format is yyyy-MM-dd HH:mm:ss 商户订单时间
         offlineCSBCodeDTO.setOrderTime(sdf.format(new Date()));
         //Device id
         offlineCSBCodeDTO.setProductCode(78);
